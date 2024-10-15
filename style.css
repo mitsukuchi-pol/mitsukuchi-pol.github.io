@@ -32,8 +32,8 @@ h1{
   display: none; /* 初期状態では非表示 */
   width: 80%;
   height: 94vh;
-  border: 1px rgb(12, 58, 138); /* ボーダーをなくす */
   margin-left: 10vw;
+  border: 3px solid rgb(12, 58, 138); /* ボーダーをなくす */
 }
 .closeButton {
   display: none; /* 初期状態では非表示 */
