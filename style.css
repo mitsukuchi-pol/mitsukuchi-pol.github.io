@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+
+.dify {
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+}
+.dify__icon {
+  width: 50px; /* アイコンの幅を指定 */
+  height: 50px; /* アイコンの高さを指定 */
+  margin-right: 10px; /* アイコンとテキストの間隔 */
+  cursor: pointer;
+}
+.dify__title {
+  font-size: 20px; /* テキストのサイズを指定 */
+  vertical-align: middle; /* 縦方向の揃えを指定 */
+}
+.iframeContainer{
+  position: fixed;
+  top: 3vh;
+  width: 100%;
+}
+.myIframe {
+  display: none; /* 初期状態では非表示 */
+  width: 80%;
+  height: 94vh;
+  border: 1px rgb(12, 58, 138); /* ボーダーをなくす */
+  margin-left: 10vw;
+}
+.closeButton {
+  display: none; /* 初期状態では非表示 */
+  position: absolute; /* 絶対位置に配置 */
+  right: 10vw; /* 右からの距離 */
+  background-color: red; /* 背景色を赤に */
+  color: white; /* テキスト色を白に */
+  border: none; /* ボーダーをなくす */
+  padding: 5px 10px; /* パディング */
+  cursor: pointer; /* カーソルをポインタに */
+  border-radius: 5px; /* 角を丸く */
+  z-index: 1;
+}
