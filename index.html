@@ -23,7 +23,39 @@
         alt="クリックしてチャットボットを表示"
         class="dify__icon"
       />
-      <span class="dify__title">Python Bug fixer</span>
+      <span class="dify__title">機能一覧（ユースケースを含む）</span>
+    </div>
+    <div class="dify" onclick="showIframe(2)">
+      <img
+        src="./item/robot_icon.png"
+        alt="クリックしてチャットボットを表示"
+        class="dify__icon"
+      />
+      <span class="dify__title">「機能一覧＆ユースケース」生成さん</span>
+    </div>
+    <div class="dify" onclick="showIframe(2)">
+      <img
+        src="./item/robot_icon.png"
+        alt="クリックしてチャットボットを表示"
+        class="dify__icon"
+      />
+      <span class="dify__title">画面一覧書つくる君</span>
+    </div>
+    <div class="dify" onclick="showIframe(2)">
+      <img
+        src="./item/robot_icon.png"
+        alt="クリックしてチャットボットを表示"
+        class="dify__icon"
+      />
+      <span class="dify__title">データベース設計書</span>
+    </div>
+    <div class="dify" onclick="showIframe(2)">
+      <img
+        src="./item/robot_icon.png"
+        alt="クリックしてチャットボットを表示"
+        class="dify__icon"
+      />
+      <span class="dify__title">インターフェイス仕様書作成くん</span>
     </div>
 
     <div class="iframeContainer">
@@ -32,14 +64,49 @@
       <iframe
         id="myIframe1"
         class="myIframe"
-        src="https://udify.app/chatbot/Y1bgXJLIbRL7Jnv7"
+        src="https://udify.app/chatbot/5bFT7HzWyXSsOoxw"
         allow="microphone"
       >
       </iframe>
       <iframe
         id="myIframe2"
         class="myIframe"
-        src="https://udify.app/chatbot/nQmwP1v1zrLbsbAL"
+        src="https://udify.app/chatbot/R4yvHyndHXdOCER4"
+        allow="microphone"
+      >
+      </iframe>
+      <iframe
+        id="myIframe2"
+        class="myIframe"
+        src="https://udify.app/chatbot/hBkctOOcZehIuzUE"
+        allow="microphone"
+      >
+      </iframe>
+      <iframe
+        id="myIframe2"
+        class="myIframe"
+        src="https://udify.app/chatbot/UnA43ZqWcJysqkQD"
+        allow="microphone"
+      >
+      </iframe>
+      <iframe
+        id="myIframe2"
+        class="myIframe"
+        src="https://udify.app/chatbot/CxEKueCt9dfNNjA7"
+        allow="microphone"
+      >
+      </iframe>
+      <iframe
+        id="myIframe2"
+        class="myIframe"
+        src="https://udify.app/chatbot/CxEKueCt9dfNNjA7"
+        allow="microphone"
+      >
+      </iframe>
+      <iframe
+        id="myIframe2"
+        class="myIframe"
+        src="https://udify.app/chatbot/EsSd1wo56ySen1mh"
         allow="microphone"
       >
       </iframe>
@@ -47,13 +114,13 @@
 
     <script>
       function showIframe(i) {
-        document.getElementById("myIframe"+ String(i)).style.display = "block"; // iframeを表示
-        document.getElementById("closeButton"+ String(i)).style.display = "block"; // ×ボタンを表示
+        document.getElementById("myIframe" + String(i)).style.display = "block"; // iframeを表示
+        document.getElementById("closeButton" + String(i)).style.display = "block"; // ×ボタンを表示
       }
 
       function hideIframe(i) {
-        document.getElementById("myIframe"+ String(i)).style.display = "none"; // iframeを非表示
-        document.getElementById("closeButton"+ String(i)).style.display = "none"; // ×ボタンを非表示
+        document.getElementById("myIframe" + String(i)).style.display = "none"; // iframeを非表示
+        document.getElementById("closeButton" + String(i)).style.display = "none"; // ×ボタンを非表示
       }
     </script>
   </body>
